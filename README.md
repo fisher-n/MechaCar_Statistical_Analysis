@@ -3,10 +3,10 @@ Analysis for client to review production data to help manufacturing team on new 
  
 ## Linear Regression to Predict MPG
 Using the data from csv file to get the linear regression displayed below
-![This is an image](https://github.com/fisher-n/MechaCar_Statistical_Analysis/blob/main/images/deliverable1.png)
+![This is an image](https://github.com/fisher-n/MechaCar_Statistical_Analysis/blob/main/images/d1.png)
 
 Summary of linear regression to determine p-value and r-squared
-![This is an image](https://github.com/fisher-n/MechaCar_Statistical_Analysis/blob/main/images/Deliverable1b.png)
+![This is an image](https://github.com/fisher-n/MechaCar_Statistical_Analysis/blob/main/images/d2.png)
 
 ### Summary
 There are no variable that provide a non-random amount of variance to the mpg values.
