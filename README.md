@@ -26,3 +26,30 @@ In the lot_summary table created shows that not all the lots meet the parameters
 
 ![This is an image](https://github.com/fisher-n/MechaCar_Statistical_Analysis/blob/main/images/d2b.png)
 
+## T-Tests on Suspension Coils
+ T-test to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
+ 
+ ### For all lots
+ With a p-value of 1 it is not significant and the null hypothesis can be accepted.
+ ![This is an image](https://github.com/fisher-n/MechaCar_Statistical_Analysis/blob/main/images/d3a.png)
+ 
+ ### For individual lots
+ #### Lot 1
+ With a p-value less than 0.05, we fail to accept the null hypothesis and significantly different.
+ ![This is an image](https://github.com/fisher-n/MechaCar_Statistical_Analysis/blob/main/images/d3b.png)
+  
+ #### Lot 2
+ With a p-value less than 0.05, we fail to accept the null hypothesis and significantly different.
+ ![This is an image](https://github.com/fisher-n/MechaCar_Statistical_Analysis/blob/main/images/d3c.png)
+ 
+ #### Lot 3 
+ With a p-value greater than 0.05, we accept the null hypothesis and it is not significantly different.
+ ![This is an image](https://github.com/fisher-n/MechaCar_Statistical_Analysis/blob/main/images/d3d.png)
+  
+ The analysis for the total of all all lot they are signifiantly different and we accept the null hypothesis. This is also the same for Lot 3. However the anlaysis for lots 1 and 2 show there is not a significant difference and we fail to accept the null.
+ 
+ ## Study Design: MechaCar vs Competition
+ 
+ Further analysis to describe the MechaCar prototype against competition would be to compare the highway mpg, cost, and maintence cost. The null hypothesis would be there is no difference between the MechaCar sample mean and population mean against competition brands. The mean of metricA from the MechaCar can be equal or different than the mean of metricA of competition. Using a t-test we can calculate the p-value to determine if we reject or fail to reject the null. Since we are comparing the means of two populations we will use a two sample t-test. If we want to know whether one mean is greater or less than the other we can use a one tailed t-test. To run this test we need the mean of both samples, the standard deviation of both samples, and the number of observations.
+ 
+ 
