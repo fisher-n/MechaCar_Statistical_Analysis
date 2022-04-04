@@ -18,9 +18,11 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 ### The suspension coil's PSI across all manufacturing lots
 In the total_summary table (displayed below) was created to display the Mean, Median, Variance and SD of the prototype. As shown the total variance meets the parameter for suspension coils and does not exceed 100 per square inch.
+
 ![This is an image](https://github.com/fisher-n/MechaCar_Statistical_Analysis/blob/main/images/D2a.png)
 
 ### Suspension coil's PSI for each lot
 In the lot_summary table created shows that not all the lots meet the parameters for suspension coils. Specfically lot 3 has a higher PSI variance than required which is not acceptable. 
+
 ![This is an image](https://github.com/fisher-n/MechaCar_Statistical_Analysis/blob/main/images/d2b.png)
 
